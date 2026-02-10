@@ -18,4 +18,4 @@ function yes() {
     window.location.replace("https://i.pinimg.com/originals/4c/62/b8/4c62b8664b2aa5d5c16e080936e52a88.gif");
 }
 // Start the interval
-const intervalId = setInterval(loopAction, 500);
+const intervalId = setInterval(loopAction, 100);
