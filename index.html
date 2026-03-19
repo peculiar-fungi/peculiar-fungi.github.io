@@ -3,56 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="main.js" defer></script>
-    <title>Rotating block schedule</title>
+    <title>Simple Video Page</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #222;
         }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1em;
-            text-align: center;
-        }
+
         main {
-            padding: 1em;
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 24px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
         }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 1em;
-            text-align: center;
-            position: fixed;
+
+        h1 {
+            margin-top: 0;
+            font-size: 2rem;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        video {
             width: 100%;
-            bottom: 0;
-        
+            margin-top: 20px;
+            border-radius: 10px;
+            background: #000;
         }
-        
     </style>
-    
+</head>
 <body>
-   
-
     <main>
-        
-
-        <section id="home">
-            <h1>This application is for your google calendar</h1>
-            <p>You know how BRHS has that rotating block schedule? It is quite annoying because it gets confusing what class you have. </p>
-            <p>Although you can use powerschool or Saturn to tell you what class you have,</p>
-            <p>it is a lot better to have google calendar do it!</p>
-            <p>These are the settings in order for you to put it on your google calendar</p>
-        </section>
-
-
-
+        <h1>A couple of my projects</h1>
+        <h2>This page has a couple of Rohit Sudhakaran's projects.</p>
+        <p>This robot over here had to "joust" with another robot, and it had to pop a ballon. Although the normal way was to have a sharp stick at the front, the robot i made had a different approach.</p>
+        <video controls>
+            <source src="vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </main>
-
-    <footer>
-        <p>&copy; 2026</p>
-    </footer>
 </body>
 </html>
